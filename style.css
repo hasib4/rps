@@ -1,0 +1,29 @@
+body {
+    background-image: linear-gradient(to right, rgba(255, 0, 102, 0.7), rgba(0, 0, 255, 0.7));
+    font-family: 'Silkscreen', cursive;
+}
+
+h2 {
+    display: flex;
+    font-weight: 200;
+    font-size: 1.5em;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    font-family: 'Silkscreen', cursive;
+    justify-content: center;
+}
+
+.texts {
+    padding-top: 15rem;
+}
+
+#PlayerChoiceDisplay, #ComputerChoiceDisplay, #ResultDisplay {
+    color: rgb(255, 255, 153);
+}
+
+.result-text {
+    font-size: 2em;
+}
