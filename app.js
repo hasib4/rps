@@ -14,7 +14,6 @@ possibleChoices.forEach(possibleChoice =>
 
 const generateComputerChoice = () => {
     const randomNumber = Math.floor(Math.random()*(2 + 1));
-    console.log(randomNumber);
     (randomNumber < 1 ? 
         computerChoice = "paper 📜" : 
         (randomNumber === 1 ? 
